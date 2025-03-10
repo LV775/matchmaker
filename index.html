@@ -34,18 +34,19 @@
   
     <label for="answer5"><p style="color:red">Question 5:</label><br>
   <textarea id="answer5" name="answer5" rows="4" cols="50"></textarea><br><br>
-  
-  <style> 
+ 
+<style> 
 div {
   width: 100px;
   height: 100px;
   background-color: red;
   position: relative;
-  animation-name: changing-color-box;
+  animation-name: example;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-@keyframes example  {
+@keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
   25%  {background-color:yellow; left:200px; top:0px;}
   50%  {background-color:blue; left:200px; top:200px;}
@@ -53,8 +54,6 @@ div {
   100% {background-color:red; left:0px; top:0px;}
 }
 </style>
-</head>
-<body>
 
 
 <div></div>
